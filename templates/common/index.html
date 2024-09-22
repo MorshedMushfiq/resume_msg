@@ -1,0 +1,16 @@
+{% extends "common/base.html" %}
+
+
+
+{% block body %}
+    
+{% include 'includes/messeges.html' %}
+
+<h3>Dropdown Menu inside a Navigation Bar</h3>
+<h3>{{request.user.username}}</h3>
+<h3>{{request.user.user_type}}</h3>
+<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
+
+
+{% endblock body %}
+    
